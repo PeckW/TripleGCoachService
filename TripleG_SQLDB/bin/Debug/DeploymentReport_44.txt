@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Coach]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column CoachJourneyID in table [dbo].[Coach] is currently  NVARCHAR (50) NOT NULL but is being changed to 
+         INT IDENTITY (1, 1) NOT NULL. Data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[Coach] (Table)
+
+** Supporting actions
+
+The type for column CoachJourneyID in table [dbo].[Coach] is currently  NVARCHAR (50) NOT NULL but is being changed to  INT IDENTITY (1, 1) NOT NULL. Data loss could occur.
+If this deployment is executed, changes to [dbo].[Coach] might introduce run-time errors in [dbo].[spCoach_DeleteCoachJourney].
+If this deployment is executed, changes to [dbo].[Coach] might introduce run-time errors in [dbo].[spCoach_GetArrivalDestination].
+If this deployment is executed, changes to [dbo].[Coach] might introduce run-time errors in [dbo].[spCoach_GetJourneyDate].
+If this deployment is executed, changes to [dbo].[Coach] might introduce run-time errors in [dbo].[spCoach_GetPrice].
+If this deployment is executed, changes to [dbo].[Coach] might introduce run-time errors in [dbo].[spCoach_InsertNewJourney].
+If this deployment is executed, changes to [dbo].[Coach] might introduce run-time errors in [dbo].[spCoach_LeavingFromDestination].
+If this deployment is executed, changes to [dbo].[Coach] might introduce run-time errors in [dbo].[spCoach_SearchAllCoachInfo].
+

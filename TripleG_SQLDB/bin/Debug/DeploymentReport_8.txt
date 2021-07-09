@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Coach]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column LeavingFromDestination in table [dbo].[Coach] is currently  VARCHAR (100) NULL but is being changed
+         to  VARCHAR (50) NULL. Data loss could occur.
+       The type for column Price in table [dbo].[Coach] is currently  VARCHAR (50) NULL but is being changed to  MONEY NULL.
+         Data loss could occur.
+
+** User actions
+     Rename
+       [dbo].[Coach].[Price] (Column)
+       [dbo].[Coach].[CoachJourneyID] (Column)
+     Table rebuild
+       [dbo].[Coach] (Table)
+
+** Supporting actions
+
+The type for column LeavingFromDestination in table [dbo].[Coach] is currently  VARCHAR (100) NULL but is being changed to  VARCHAR (50) NULL. Data loss could occur.
+The type for column Price in table [dbo].[Coach] is currently  VARCHAR (50) NULL but is being changed to  MONEY NULL. Data loss could occur.
+

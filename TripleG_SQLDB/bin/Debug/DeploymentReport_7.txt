@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column Username in table [dbo].[Account] is currently  NCHAR (10) NULL but is being changed to  VARCHAR
+         (50) NULL. Data loss could occur.
+       The type for column PhoneNumber in table [dbo].[Customer] is currently  VARCHAR (50) NULL but is being changed to 
+         VARCHAR (20) NULL. Data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[Account] (Table)
+       [dbo].[Customer] (Table)
+     Create
+       [dbo].[Coach] (Table)
+
+** Supporting actions
+
+The type for column Username in table [dbo].[Account] is currently  NCHAR (10) NULL but is being changed to  VARCHAR (50) NULL. Data loss could occur.
+The type for column PhoneNumber in table [dbo].[Customer] is currently  VARCHAR (50) NULL but is being changed to  VARCHAR (20) NULL. Data loss could occur.
+

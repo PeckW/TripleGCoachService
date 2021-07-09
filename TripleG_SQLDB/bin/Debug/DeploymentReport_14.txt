@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Coach]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column ArrivalDestination in table [dbo].[Coach] is currently  VARCHAR (100) NULL but is being changed to 
+         NVARCHAR (50) NULL. Data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[Coach] (Table)
+
+** Supporting actions
+
+The type for column ArrivalDestination in table [dbo].[Coach] is currently  VARCHAR (100) NULL but is being changed to  NVARCHAR (50) NULL. Data loss could occur.
+If this deployment is executed, changes to [dbo].[Coach] might introduce run-time errors in [dbo].[spCoach_GetArrivalDestination].
+If this deployment is executed, changes to [dbo].[Coach] might introduce run-time errors in [dbo].[spCoach_ShowAllCoaches].
+

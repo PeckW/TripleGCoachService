@@ -1,0 +1,40 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Account]
+       [dbo].[Customer]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column PhoneNumber in table [dbo].[Customer] is currently  VARCHAR (20) NULL but is being changed to 
+         NVARCHAR (11) NULL. Data loss could occur.
+
+** User actions
+     Drop
+       Permission (Permission)
+       Permission (Permission)
+       [dbo].[spAccount_GetAll] (Procedure)
+       [dbo].[spAccount_GetAllByUsername] (Procedure)
+       [dbo].[spAccount_GetUsernameAndPassword] (Procedure)
+       [dbo].[spAccount_InsertNewAccount] (Procedure)
+       [dbo].[spCoach_GetArrivalDestination] (Procedure)
+       [dbo].[spCoach_GetJourneyDate] (Procedure)
+       [dbo].[spCoach_GetPrice] (Procedure)
+       [dbo].[spCoach_LeavingFromDestination] (Procedure)
+       [dbo].[spCoach_SearchAllCoachInfo] (Procedure)
+       [dbo].[spCoach_ShowAllCoaches] (Procedure)
+       [dbo].[spCreditCard_InsertCreditCard] (Procedure)
+       [dbo].[spCustomer_InsertNewCustomer] (Procedure)
+     Table rebuild
+       [dbo].[Account] (Table)
+       [dbo].[Customer] (Table)
+     Create
+       [dbo].[CreditCard] (Table)
+
+** Supporting actions
+
+The object [TripleG_SQLDB] exists in the target, but it will not be dropped even though you selected the 'Generate drop statements for objects that are in the target database but that are not in the source' check box.
+The object [TripleG_SQLDB_log] exists in the target, but it will not be dropped even though you selected the 'Generate drop statements for objects that are in the target database but that are not in the source' check box.
+The type for column PhoneNumber in table [dbo].[Customer] is currently  VARCHAR (20) NULL but is being changed to  NVARCHAR (11) NULL. Data loss could occur.
+

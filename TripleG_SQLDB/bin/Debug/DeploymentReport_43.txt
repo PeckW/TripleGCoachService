@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[CreditCard]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[Account] (Table)
+     Table rebuild
+       [dbo].[CreditCard] (Table)
+     Create
+       [dbo].[FK_CreditCard_Customer] (Foreign Key)
+
+** Supporting actions
+
+If this deployment is executed, changes to [dbo].[Account] might introduce run-time errors in [dbo].[spAccount_GetAll].
+If this deployment is executed, changes to [dbo].[Account] might introduce run-time errors in [dbo].[spAccount_GetAllByUsername].
+If this deployment is executed, changes to [dbo].[Account] might introduce run-time errors in [dbo].[spAccount_GetUsernameAndPassword].
+If this deployment is executed, changes to [dbo].[Account] might introduce run-time errors in [dbo].[spAccount_InsertNewAccount].
+If this deployment is executed, changes to [dbo].[CreditCard] might introduce run-time errors in [dbo].[spCreditCard_InsertCreditCard].
+

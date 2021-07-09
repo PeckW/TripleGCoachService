@@ -1,0 +1,35 @@
+﻿<Page x:Class="TripleG_Online.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TripleG_Online"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="780"
+      Title="LoginPage">
+
+    <Grid>
+
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Login Page" HorizontalAlignment="Center" FontSize="18" Foreground="FloralWhite"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,50,0,0">
+                <TextBlock Text="Username :" FontSize="14" Foreground="FloralWhite"/>
+                <TextBox Name="loginUsernameIns" MinWidth="200" Margin="10,0,0,0" FontSize="14"/>
+                <ListBox Name="userNameCheckListBox" Width="30" MaxWidth="100"  FontSize="14" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" Background="Transparent" BorderBrush="Transparent"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                <TextBlock Text="Password :" FontSize="14" Foreground="FloralWhite"/>
+                <TextBox Name="loginPasswordIns" MinWidth="200" Margin="15,0,0,0" FontSize="14"/>
+                <ListBox Name="passwordCheckListBox" Width="30" MaxWidth="100"  FontSize="14" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" Background="Transparent" BorderBrush="Transparent"/>
+            </StackPanel>
+
+            <Button Name="loginBtn" Content="Login" MinWidth="100" HorizontalAlignment="Center" Margin="0,20,0,0" FontSize="14" Click="LoginBtn_Click" Foreground="White" Background="DarkSlateGray" BorderBrush="Black" BorderThickness="2"/>
+
+            <TextBlock Name="errorMessageLabel" FontSize="16" Width="400" Height="30" TextAlignment="Center" Margin="0,20,0,0" Foreground="FloralWhite"/>
+
+        </StackPanel>
+
+    </Grid>
+</Page>

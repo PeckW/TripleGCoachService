@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Account]
+       [dbo].[Customer]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column PhoneNumber in table [dbo].[Customer] is currently  VARCHAR (20) NULL but is being changed to 
+         NVARCHAR (11) NULL. Data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[Account] (Table)
+       [dbo].[Customer] (Table)
+
+** Supporting actions
+
+The type for column PhoneNumber in table [dbo].[Customer] is currently  VARCHAR (20) NULL but is being changed to  NVARCHAR (11) NULL. Data loss could occur.
+If this deployment is executed, changes to [dbo].[Account] might introduce run-time errors in [dbo].[spAccount_GetAll].
+If this deployment is executed, changes to [dbo].[Account] might introduce run-time errors in [dbo].[spAccount_GetAllByUsername].
+If this deployment is executed, changes to [dbo].[Account] might introduce run-time errors in [dbo].[spAccount_GetUsernameAndPassword].
+If this deployment is executed, changes to [dbo].[Account] might introduce run-time errors in [dbo].[spAccount_InsertNewAccount].
+If this deployment is executed, changes to [dbo].[Customer] might introduce run-time errors in [dbo].[spCustomer_InsertNewCustomer].
+

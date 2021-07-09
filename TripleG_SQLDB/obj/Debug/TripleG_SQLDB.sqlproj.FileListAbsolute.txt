@@ -1,0 +1,10 @@
+C:\SE2-Triple-G-Coach-Service\TripleG_Online\TripleG_SQLDB\bin\Debug\TripleG_SQLDB.dacpac
+C:\SE2-Triple-G-Coach-Service\TripleG_Online\TripleG_SQLDB\bin\Debug\TripleG_SQLDB.dll
+C:\SE2-Triple-G-Coach-Service\TripleG_Online\TripleG_SQLDB\bin\Debug\TripleG_SQLDB.pdb
+C:\SE2-Triple-G-Coach-Service\TripleG_Online\TripleG_SQLDB\obj\Debug\TripleG_SQLDB.dll
+C:\SE2-Triple-G-Coach-Service\TripleG_Online\TripleG_SQLDB\obj\Debug\TripleG_SQLDB.pdb
+C:\SE2-Triple-G-Coach-Service\TripleG_Online\TripleG_SQLDB\obj\Debug\TripleG_SQLDB.sqlprojAssemblyReference.cache
+C:\SE2-Triple-G-Coach-Service\TripleG_Online\TripleG_SQLDB\obj\Debug\Model.xml
+C:\SE2-Triple-G-Coach-Service\TripleG_Online\TripleG_SQLDB\obj\Debug\refactor.xml
+C:\SE2-Triple-G-Coach-Service\TripleG_Online\TripleG_SQLDB\obj\Debug\postdeploy.sql
+C:\SE2-Triple-G-Coach-Service\TripleG_Online\TripleG_SQLDB\obj\Debug\predeploy.sql
